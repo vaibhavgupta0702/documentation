@@ -19,7 +19,7 @@ Partitions are the key to Kafka scalability, but that does not mean that you sho
 Keep a good balance between cores and consumers
 Each partition in Kafka is single threaded, too many partitions will not reach its full potential if you have a low number of cores on the server. Therefore you need to try to keep a good balance between cores and consumers. You don’t want to have consumers idling, due to fewer cores than consumers.
 
-
+Lorem Ipsum
 
 .. toctree::
    :maxdepth: 2
